@@ -31,3 +31,17 @@ body {
     text-wrap: balance;
   }
 }
+
+.navigationSection{
+  background-color: green;
+}
+
+.chocolateBar{
+  /* background-color: blueviolet; */
+  background: url("https://th.bing.com/th/id/R.d820b497cc152184d0f6620a9ec15714?rik=NdJJFHHnyGxSVg&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2015%2f12%2f40105-gradient-simple_background-colorful-abstract.jpg&ehk=HXCvpXoX%2fSQHIUxEUk8uCjhkgJNzA46%2bX6VinvVPLN8%3d&risl=&pid=ImgRaw&r=0");
+  background-repeat: no-repeat;
+  background-size: 500px 200px;
+  color: white;
+  margin-bottom: 2px;
+  min-height: 200px;
+}
