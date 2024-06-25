@@ -7,7 +7,7 @@ export default function Home() {
       <h1>Homepage</h1>
       {chocolateBarsArray.map( (chocolateBar) => {
         return(
-          <div className="chocolateBar">
+          <div key={chocolateBar.id} className="chocolateBar">
             <Link href={`/chocolate-bars/${chocolateBar.slug}`}>
             {chocolateBar.id}:{chocolateBar.name}
             </Link>
